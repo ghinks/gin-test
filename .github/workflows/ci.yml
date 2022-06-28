@@ -28,4 +28,4 @@ jobs:
       - name: Build Docker Image
         id: docker_build
         run: |
-          docker build -t ping:1.0.0
+          docker build -t ping:1.0.0 .
