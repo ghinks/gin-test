@@ -24,7 +24,4 @@ jobs:
           go-version: ${{ matrix.go-version }}
 
       - name: Test
-        run: tools/build
-        env:
-          VERBOSE: 1
-          TESTING: 1
+        run: echo "testing"
